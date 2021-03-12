@@ -1,0 +1,322 @@
+/*
+Theme Name: Khmer One
+Theme URI: http://khmerone.com
+Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
+Version: 3.3.1
+Author: Chris Barnes
+Author URI: http://khmerone.com
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://khmerone.com
+*/
+
+/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Hanuman|Koulen');
+body {
+    font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+   color: #666;
+   padding: 0;
+}
+a {
+     color: #666;
+}
+.color-white {
+    color: #fff;
+}
+.list-section .carousel-inner > .item {
+   padding: 0 20px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+ 
+}
+h4 {
+    color: #333;
+    font-weight: bold;
+}
+h1 { font-size: 28px; }
+h1, h2, h3, h5, h4 {
+font-weight: normal;
+     margin: 0;
+    padding: 10px 0;
+    color: #00ADEF;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 28px;
+}
+.color-gray {
+    color: #939598;
+}
+.bg-light-gray {
+    background: #363636;
+}
+.services h2 {
+    border-bottom: 3px solid #00ADEF;
+}
+#parallax_34_posttitle div { font-size: 28px; color: #fff;}
+.member-list {
+    text-align: center;
+}
+section.adamrob_parallax {
+    padding: 50px 0;
+}
+.services li,
+.services p,
+#content li,
+#content a,
+#content p {
+    font-size: 15px !important;
+}
+.navbar-default {
+  background: #4D4D4D;
+  -webkit-box-shadow: 0px 5px 7px -8px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 5px 7px -8px rgba(0,0,0,0.58);
+box-shadow: 0px 5px 7px -8px rgba(0,0,0,0.58);
+border: none !important;
+ } 
+ #main-nav #menu-main-menu a {
+  font-family: 'Oswald', sans-serif;
+ }
+ #main-nav #menu-main-nav,
+ #main-nav #menu-main-menu {
+    height: 30px;
+	
+ }
+ .navbar-collapse {
+     padding: 0 !important;
+ }
+ .owl-theme .owl-controls {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     z-index: 9;
+ }
+ .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+     background: #008FD5 !important;
+ }
+ .navbar {
+     border-radius: 0 !important;
+     min-height: 30px !important;
+     margin-bottom: 0 !important;
+ }
+  #main-nav #menu-main-nav li.active a,
+  #main-nav #menu-main-nav li a:hover,
+   #main-nav #menu-main-menu li a:hover {
+     text-decoration: none;
+     color: #4d4d4d !important;
+   }
+   .social {
+     margin: 0;
+	
+   }
+   .social li {
+    border: 1px solid #fff;
+   
+    display: inline-block;
+    height: 30px;
+    margin-right: 8px;
+    margin-top: 5px;
+    padding: 3px 3px 3px 9px;
+    width: 32px;
+	
+}
+.navbar-right {
+    margin: 0;
+}
+.social li a {
+   color: #fff;
+}
+ #main-nav #menu-main-nav li,
+ #main-nav #menu-main-menu li {
+   padding: 0;
+ }
+  #main-nav #menu-main-nav li  a,
+  #main-nav #menu-main-menu li a {
+    padding: 10px 20px;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	border-right: 1px solid #fff;
+  }
+  
+   #main-nav #menu-main-nav li a:hover,
+    #main-nav #menu-main-nav li.active a,
+  #menu-main-menu li a:hover,
+  #menu-main-menu li.active a {
+  background: #f2f2f2 !important;
+  color: #4d4d4d !important;
+}
+
+.logo img {
+    max-width: 400px;
+    padding: 10px 0;
+}
+.services ul {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+}
+.teams h2 {
+    border-bottom: 1px solid #2a3b7b;
+    margin-bottom: 30px;
+}
+.clear {
+    clear: both;
+}
+.services ul li,
+
+.services p {
+    color: #fff;
+}
+.footer-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.padding-left-no {
+    padding-left: 0 !important;
+}
+#sidebar1 ul {
+    padding: 0 16px;
+    margin: 0;
+}
+#sidebar1 {
+  border-right: 1px solid #ccc;
+}
+.padding-no {
+    padding: 0 !important;
+}
+.footer-wrapper h3,
+.footer-wrapper h4 {
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid #00ADEF;
+    margin-bottom: 20px;
+}
+.footer-wrapper a,
+.footer-wrapper ul li a {
+   color: #4d4d4d;
+}
+.page-header h1 {
+    border-bottom: 3px solid #00ADEF;
+}
+.page-header {
+  margin: 0 0 20px 0;
+  border: none;
+}
+.footer-wrapper {
+    padding: 20px 0;
+    background: #f2f2f2;
+    color: #4d4d4d;
+}
+.teams {
+    position: relative;
+    padding: 30px 0;
+}
+.carousel-indicators {
+  bottom: -30px !important;
+  
+}
+.carousel-indicators .active {
+    background: #008FD5;
+}
+.carousel-indicators li {
+    background: #2a3b7b;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+
+}
+@media (max-width: 768px) { 
+ #menu-main-menu li,
+ #menu-main-menu  {
+    display: list-item;
+	background: #008FD5;
+ }
+ #menu-main-menu {
+ position: absolute;
+    width: 100%;
+    z-index: 9999;
+	background: #008FD5;
+ }
+ .navbar-default .navbar-toggle .icon-bar {
+    color: #fff !important;
+ }
+ .services ul {
+   width: 100%;
+   padding: 20px;
+ }
+ .logo img {
+    max-width: 100%;
+	width: 100%;
+ }
+ .logo {
+    width: 100%;
+ }
+ .social-link {
+   display: none;
+   padding: 0;
+ }
+#sidebar1 { float: right; }
+}
+.top-link {
+    padding: 10px 0;
+    background: #f2f2f2;
+    border-bottom: 4px solid #00ADEF;
+}
+#lang_sel_list {
+    height: auto !important;
+}
+#lang_sel_list ul a,
+#lang_sel_list a.lang_sel_sel {
+  
+   background: none;
+}
+article {
+  margin: 0;
+  padding: 0;
+}
+#lang_sel_list img.iclflag {
+   height: auto !important;
+   background: none;
+}
+body.lang-kh,
+.lang-kh p,
+.lang-kh div,
+.lang-kh ul li a {
+ font-family: 'Hanuman', serif;
+ word-wrap: break-word;
+}
+#menu-main-nav li a ,
+.lang-kh h1, 
+.lang-kh h2,
+.lang-kh h3,
+.lang-kh h4,
+.lang-kh h5 {
+font-family: 'Koulen', cursive;
+font-weight: normal;
+}
+.lang-kh h1 { font-size: 28px; }
+.search-section {
+    padding-top: 20px;
+}
+.search-section input {
+    border-radius: 0;
+    border: none;
+    background: #f2f2f2;
+}
+.search-section .btn-default {
+    color: #fff;
+    background: #008FD5;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 0;
+}

@@ -1,0 +1,38 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 12 Mar 2021 17:43:16 at http://www.kdr.asia/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.kdr.asia/ -O1 "C:\My Web Sites\test" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:43:18	Warning: 	Note: due to www.kdr.asia remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+17:44:03	Error: 	"Method Not Allowed" (405) at link www.kdr.asia/xmlrpc.php (from www.kdr.asia/)
+17:44:59	Warning: 	File not parsed, looks like binary: www.kdr.asia/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur
+17:44:59	Warning: 	File not parsed, looks like binary: www.kdr.asia/wp-content/plugins/masterslider/public/assets/css/common/grab.cur
+17:45:28	Error: 	"Not Found" (404) at link www.kdr.asia/wp-content/plugins/masterslider/public/assets/js/blank.gif (from www.kdr.asia/)
+17:45:28	Error: 	"Not Found" (404) at link www.kdr.asia/wp-content/themes/khmerone/library/bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0 (from www.kdr.asia/wp-content/themes/khmerone/library/dist/css/styles.f6413c85.min.css?ver=1.0)
+17:45:28	Error: 	"Not Found" (404) at link www.kdr.asia/wp-content/themes/khmerone/library/bower_components/font-awesome/fonts/fontawesome-webfont.eot? (from www.kdr.asia/wp-content/themes/khmerone/library/dist/css/styles.f6413c85.min.css?ver=1.0)
+17:45:28	Error: 	"Not Found" (404) at link www.kdr.asia/wp-content/themes/khmerone/library/bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 (from www.kdr.asia/wp-content/themes/khmerone/library/dist/css/styles.f6413c85.min.css?ver=1.0)
+17:45:28	Error: 	"Not Found" (404) at link www.kdr.asia/wp-content/themes/khmerone/library/bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0 (from www.kdr.asia/wp-content/themes/khmerone/library/dist/css/styles.f6413c85.min.css?ver=1.0)
+17:45:28	Error: 	"Not Found" (404) at link www.kdr.asia/wp-content/themes/khmerone/library/bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0 (from www.kdr.asia/wp-content/themes/khmerone/library/dist/css/styles.f6413c85.min.css?ver=1.0)
+17:45:28	Error: 	"Not Found" (404) at link www.kdr.asia/wp-content/plugins/masterslider/public/assets/css/contrast-skin.png (from www.kdr.asia/wp-content/plugins/masterslider/public/assets/css/masterslider.main.css?ver=2.9.7)
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=2
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=2 to http://www.kdr.asia/about-the-firm/
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=8
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=8 to http://www.kdr.asia/our-services/
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=10
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=10 to http://www.kdr.asia/our-team/
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=12
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=12 to http://www.kdr.asia/contact-us/
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=89
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=89 to http://www.kdr.asia/%e1%9e%a2%e1%9f%86%e1%9e%96%e1%9e%b8%e1%9e%80%e1%9f%92%e1%9e%9a%e1%9e%bb%e1%9e%98%e1%9e%a0%e1%9f%8a%e1%9e%bb%e1%9e%93/?lang=kh
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=93
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=93 to http://www.kdr.asia/%e1%9e%9f%e1%9f%81%e1%9e%9c%e1%9e%b6%e1%9e%80%e1%9e%98%e1%9f%92%e1%9e%98%e1%9e%9a%e1%9e%94%e1%9e%9f%e1%9f%8b%e1%9e%99%e1%9e%be%e1%9e%84/?lang=kh
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=95
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=95 to http://www.kdr.asia/%e1%9e%80%e1%9f%92%e1%9e%9a%e1%9e%bb%e1%9e%98%e1%9e%80%e1%9e%b6%e1%9e%9a%e1%9e%84%e1%9e%b6%e1%9e%9a/?lang=kh
+17:45:35	Warning: 	Moved Permanently for www.kdr.asia/?p=91
+17:45:35	Warning: 	File has moved from www.kdr.asia/?p=91 to http://www.kdr.asia/%e1%9e%91%e1%9f%86%e1%9e%93%e1%9e%b6%e1%9e%80%e1%9f%8b%e1%9e%91%e1%9f%86%e1%9e%93%e1%9e%84/?lang=kh
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 18 seconds : 126 links scanned, 109 files written (2460221 bytes overall) [2549352 bytes received at 18473 bytes/sec], 3.3 requests per connection
+(8 errors, 19 warnings, 0 messages)
