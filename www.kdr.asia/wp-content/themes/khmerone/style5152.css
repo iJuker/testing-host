@@ -42,7 +42,7 @@ h1, h2, h3, h5, h4 {
 font-weight: normal;
      margin: 0;
     padding: 10px 0;
-    color: #00ADEF;
+    color: #895e29 !important;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -74,7 +74,7 @@ section.adamrob_parallax {
     font-size: 15px !important;
 }
 .navbar-default {
-  background: #4D4D4D;
+  background:#4a77ca;
   -webkit-box-shadow: 0px 5px 7px -8px rgba(0,0,0,0.58);
 -moz-box-shadow: 0px 5px 7px -8px rgba(0,0,0,0.58);
 box-shadow: 0px 5px 7px -8px rgba(0,0,0,0.58);
